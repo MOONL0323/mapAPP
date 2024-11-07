@@ -1,24 +1,13 @@
 # my-vue-app
 
-## Project setup
-```
-npm install
-```
+## gitclone项目
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+``` git clone```
+``` cd .\my-vue-app\my-cordova-app\ ```
+### 构建app
+``` cordova build android ```
+### 运行app
+通过adb命令打包app
+``` adb install xxx ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
